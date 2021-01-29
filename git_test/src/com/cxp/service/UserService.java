@@ -7,5 +7,9 @@ public interface UserService {
 	
 	//查询所有用户
 	void findAllUsers();
+	
+	
+	//查询所有用户
+	void deleteUser(Integer id);
 
 }
